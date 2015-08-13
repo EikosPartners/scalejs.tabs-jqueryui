@@ -11090,7 +11090,7 @@ define("bPopup", function(){});
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
-		define( 'jquery-ui/core',[ "jquery" ], factory );
+		define( '../lib/jquery-ui/ui/core',[ "jquery" ], factory );
 	} else {
 
 		// Browser globals
@@ -11395,7 +11395,7 @@ $.ui.plugin = {
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
-		define( 'jquery-ui/widget',[ "jquery" ], factory );
+		define( '../lib/jquery-ui/ui/widget',[ "jquery" ], factory );
 	} else {
 
 		// Browser globals
@@ -11954,7 +11954,7 @@ return $.widget;
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
-		define('jquery-ui/mouse',[
+		define('../lib/jquery-ui/ui/mouse',[
 			"jquery",
 			"./widget"
 		], factory );
@@ -12154,7 +12154,7 @@ return $.widget("ui.mouse", {
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
-		define('jquery-ui/sortable',[
+		define('../lib/jquery-ui/ui/sortable',[
 			"jquery",
 			"./core",
 			"./mouse",
@@ -13470,7 +13470,7 @@ return $.widget("ui.sortable", $.ui.mouse, {
 	if ( typeof define === "function" && define.amd ) {
 
 		// AMD. Register as an anonymous module.
-		define('jquery-ui/draggable',[
+		define('../lib/jquery-ui/ui/draggable',[
 			"jquery",
 			"./core",
 			"./mouse",

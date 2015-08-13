@@ -6,6 +6,12 @@ var require = {
       '<%=ext_name%>'
     ]
   },
+  map: {
+    '*': {
+      'jquery-ui/sortable': '../lib/jquery-ui/ui/sortable',
+      'jquery-ui/draggable': '../lib/jquery-ui/ui/draggable'
+    }
+  },
   paths: {
     bPopup: '../lib/bPopup/jquery.bpopup',
     jquery: '../lib/jquery/dist/jquery',
