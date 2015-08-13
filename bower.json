@@ -1,0 +1,28 @@
+{
+  "name": "scalejs.tabs-jqueryui",
+  "version": "0.0.0",
+  "homepage": "",
+  "authors": [],
+  "description": "",
+  "main": [
+    "dist/scalejs.tabs-jqueryui.min.js"
+  ],
+  "ignore": [
+    "*",
+    "!dist/*.js"
+  ],
+  "dependencies": {
+    "scalejs": "lisovin/scalejs",
+    "jquery": "~2.1.4",
+    "knockout": "~3.3.0",
+    "knockout-sortable": "~0.11.0",
+    "bPopup": "dinbror/bpopup#~0.11.0",
+    "jquery-ui": "~1.11.4",
+    "text": "~2.0.14",
+    "knockout-mapping": "~2.4.1",
+    "scalejs.mvvm": "EikosPartners/scalejs.mvvm"
+  },
+  "devDependencies": {
+    "requirejs": "latest"
+  }
+}
